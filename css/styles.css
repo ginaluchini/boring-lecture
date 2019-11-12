@@ -1,29 +1,38 @@
 
 h1{
-  line-height: 15px
+  line-height: 15px;
+  text-align:center;
 }
 
 .intro{
   font-style: italic;
+  text-align: center;
 }
 
-p{
-  text-align: justify;
+.intro-text{
+  font-weight: bold;
+  text-align: center;
 }
 
-h2.intro{
+
+h2{
   text-decoration: overline;
   text-decoration-style:double;
 }
 
-p.intro{
-  font-weight: bold;
+
+.column{
+  text-align: justify;
+  width: 30%;
+  float:left;
+  margin: 10px;
 }
 
-img.intro{
+img{
+  width: 100%;
   border-style: solid;
   border-width: thick;
   border-color: #9C640C;
-  margin-right: 15px;
+  float: left;
   margin-bottom: 10px;
 }
