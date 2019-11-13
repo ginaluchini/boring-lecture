@@ -24,14 +24,6 @@ h2{
   text-decoration-style:double;
 }
 
-
-.column{
-  text-align: justify;
-  width: 30%;
-  float:left;
-  margin: 10px;
-}
-
 img{
   width: 100%;
   border-style: solid;
@@ -39,4 +31,24 @@ img{
   border-color: #9C640C;
   float: left;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (min-width: 700px) {
+  .column{
+    text-align: justify;
+    float:left;
+    padding: 2%;
+    width: 46%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .column{
+    width: 30%;
+    padding: 10px;
+  }
 }
